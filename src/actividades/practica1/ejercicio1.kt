@@ -1,4 +1,4 @@
-package actividades.practica1
+/*package actividades.practica1
 
 fun pedirDatos(): Pair<Int,Int>{
     println("Salario del trabajador: ")
@@ -29,3 +29,4 @@ fun main(){
     val dineroRecibido = calcularDineroRecibido(salario, puntuacion)
     darResultados(puntuacion, dineroRecibido)
 }
+ */

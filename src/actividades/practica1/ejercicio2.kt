@@ -5,9 +5,10 @@ package actividades.practica1
 // Fecha creación: 2025-03-16
 // Fecha última modificación: 2025-03-16
 
-fun decidir(opcion:Int):String {
-    var decision:String = "nada"
-    when(opcion) {
+// Asigna un nombre a la opción elegida
+fun decidir(opcion: Int): String {
+    var decision: String = "nada"
+    when (opcion) {
         1 -> decision = "PIEDRA"
         2 -> decision = "PAPEL"
         3 -> decision = "TIJERA"
@@ -16,41 +17,45 @@ fun decidir(opcion:Int):String {
     return decision
 }
 
-fun computadoraDecide():String {
+// Genera aleatoriamente la decisión de la computadora
+fun computadoraDecide(): String {
     val numeroAleatorio = (1..3).random()
     return decidir(numeroAleatorio)
 }
 
+// Pide la jugada del usuario
 fun usuarioDecide(): String {
     var opcion = readln().toInt()
     return decidir(opcion)
 }
 
-fun mostrarMenu(){
+// Muestra el menú de opciones
+fun mostrarMenu() {
     print("1. PIEDRA\n2. PAPEL\n3. TIJERA\nEscoja la opción: ")
 }
 
-fun decidirGanador(decisionUsuario:String, decisionComputadora:String){
-    if (decisionUsuario == "PIEDRA"){
-        if (decisionComputadora == "TIJERA"){
+// Evalúa el resultado del juego
+fun decidirGanador(decisionUsuario: String, decisionComputadora: String) {
+    if (decisionUsuario == "PIEDRA") {
+        if (decisionComputadora == "TIJERA") {
             println("\u001B[32mUSUARIO GANA\u001B[0m")
-        } else if (decisionComputadora == "PAPEL"){
+        } else if (decisionComputadora == "PAPEL") {
             println("\u001B[32mCOMPUTADORA GANA\u001B[0m")
         } else {
             println("\u001B[32mEMPATE\u001B[0m")
         }
-    } else if(decisionUsuario == "PAPEL"){
-        if (decisionComputadora == "PIEDRA"){
+    } else if (decisionUsuario == "PAPEL") {
+        if (decisionComputadora == "PIEDRA") {
             println("\u001B[32mUSUARIO GANA\u001B[0m")
-        } else if (decisionComputadora == "TIJERA"){
+        } else if (decisionComputadora == "TIJERA") {
             println("\u001B[32mCOMPUTADORA GANA\u001B[0m")
         } else {
             println("\u001B[32mEMPATE\u001B[0m")
         }
-    } else if (decisionUsuario == "TIJERA"){
-        if (decisionComputadora == "PIEDRA"){
+    } else if (decisionUsuario == "TIJERA") {
+        if (decisionComputadora == "PIEDRA") {
             println("\u001B[32mCOMPUTADORA GANA\u001B[0m")
-        } else if (decisionComputadora == "PAPEL"){
+        } else if (decisionComputadora == "PAPEL") {
             println("\u001B[32mUSUARIO GANA\u001B[0m")
         } else {
             println("\u001B[32mEMPATE\u001B[0m")
@@ -58,7 +63,8 @@ fun decidirGanador(decisionUsuario:String, decisionComputadora:String){
     }
 }
 
-fun piedraPapelTijera(){
+// Controla el flujo del juego
+fun piedraPapelTijera() {
     println("\u001B[1;34m/***** Juega contra la computadora y descubre si ganas *****/\u001B[0m\n")
     mostrarMenu()
     val (decisionUsuario, decisionComputadora) = Pair(usuarioDecide(), computadoraDecide())

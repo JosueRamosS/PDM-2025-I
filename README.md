@@ -1,4 +1,4 @@
-# 📂 Estructura de la actividad
+# 📂 Estructura de la actividad (Práctica 1)
 ## La actividad está estructurada de la siguiente manera:
 
 ![image](https://github.com/user-attachments/assets/30d6b2f8-a5e9-413f-895c-020cf79b79b2)

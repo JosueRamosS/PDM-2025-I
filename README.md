@@ -1,13 +1,14 @@
-# 📂 Estructura de la actividad (Práctica 1)
+# 📂 Estructura de la actividad (Práctica 2)
 ## La actividad está estructurada de la siguiente manera:
 
-![image](https://github.com/user-attachments/assets/30d6b2f8-a5e9-413f-895c-020cf79b79b2)
+<img width="315" alt="image" src="https://github.com/user-attachments/assets/2365b603-6c73-45f0-9bbb-785567f00cfd" />
+
 
 
 ## 🗂️ Ubicación de los ejercicios:
 Todos los ejercicios se encuentran en la ruta:
 
-  **src/actividades/practica1**
+  **src/actividades/practica2**
 
 ## 🚀 Instrucciones para la Ejecución
 1. Clonar el Repositorio:
@@ -20,17 +21,12 @@ Todos los ejercicios se encuentran en la ruta:
   Asegúrate de que el proyecto tenga configurado el SDK de Kotlin versión openjdk-23 Oracle OpenJDK 23.0.2 para garantizar la correcta compilación.
 
 4. Ejecutar el Proyecto:
-  Abre el archivo main.kt.
-  Ejecuta el programa desde IntelliJ IDEA utilizando el botón de Run (▶️).
-  El menú interactivo se mostrará en la consola, permitiéndote elegir uno de los cuatro ejercicios disponibles.
+  A diferencia de la práctica anterior, está tiene un main en cada ejercicio, cada uno puede ser ejecutado de manera independiente.
 
-## 🧩 Descripción del Menú Interactivo
-El archivo main.kt contiene un menú diseñado para facilitar la ejecución de los ejercicios. A través de este menú, podrás seleccionar qué ejercicio deseas ejecutar, garantizando así una experiencia más fluida y organizada.
-
-## ✅ Estado de la Práctica 1
+## ✅ Estado de la Práctica 2
 - ✔️ Todos los ejercicios han sido implementados correctamente.
 - ✔️ Se han validado todas las funcionalidades para garantizar su correcto funcionamiento.
-- ✔️ El menú interactivo permite acceder fácilmente a cada uno de los ejercicios.
+- ✔️ Cada una se ejecuta fácilmente con su respectiva función main.
 
 ## 📋 Entorno utilizado
 

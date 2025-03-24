@@ -2,9 +2,9 @@ package actividades.practica2
 
 /*
     Descripción: Sistema de gestión de biblioteca con materiales, usuarios y préstamos.
-    Autor: [Tu Nombre]
-    Fecha de creación: [Fecha]
-    Fecha última modificación: [Fecha]
+    Autor: Josué Carlos Alberto Ramos Suyoc
+    Fecha de creación: 24 de marzo de 2025
+    Fecha última modificación: 24 de marzo de 2025
 */
 
 abstract class Material(val titulo: String, val autor: String, val anioPublicacion: Int) {

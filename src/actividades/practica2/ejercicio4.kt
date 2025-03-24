@@ -3,7 +3,7 @@ package actividades.practica2
 /*
     Descripción: Sistema de gestión de biblioteca con materiales, usuarios y préstamos.
     Autor: Josué Carlos Alberto Ramos Suyoc
-    Fecha de creación: 24 de marzo de 2025
+    Fecha de creación: 23 de marzo de 2025
     Fecha última modificación: 24 de marzo de 2025
 */
 
